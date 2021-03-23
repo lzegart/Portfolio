@@ -31,6 +31,13 @@ body {
   color: rgb(70, 69, 69);
 }
 
+#brand-statement {
+  text-align: left;
+  padding: 20px;
+  margin-left: 20px;
+  max-width: 700px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

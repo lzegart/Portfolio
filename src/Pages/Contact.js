@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
+import Resume from "../Assets/Resume.pdf";
 
 const Contact = () => {
 
@@ -16,13 +17,13 @@ const Contact = () => {
                 <h4>Phone number available on request</h4>
             </article>
             <article className="row">
-                <Link href="https://github.com/lzegart" class="link" id="contact-link">Github Profile</Link>
+                <a href="https://github.com/lzegart" className="link" id="contact-link">Github Profile</a>
             </article>
             <article className="row">
-                <Link href="https://www.linkedin.com/in/lara-zegart-682429114/" class="link" id="contact-link">Linked-In Profile</Link>
+                <a href="https://www.linkedin.com/in/lara-zegart-682429114/" className="link" id="contact-link">Linked-In Profile</a>
             </article>
             <article className="row">
-                <Link href="./Lara Zegart Resume- Coding 2020.pdf" class="link" id="contact-link">Resume</Link>
+                <a href="./Lara Zegart Resume- Coding 2020.pdf" className="link" id="contact-link">Resume</a>
             </article>
         </form>
     )
