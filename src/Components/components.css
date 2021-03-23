@@ -1,5 +1,21 @@
 /* Header */
 
+
 /* Project */
 
 /* Footer */
+footer {
+    /* color:#37bff5; */
+    opacity: 85%;
+    margin-bottom: 0px;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+}
+
+#footer-text {
+    width: fit-content;
+    margin: auto;
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 25px;
+}

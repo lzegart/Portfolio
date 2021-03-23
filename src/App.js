@@ -5,16 +5,18 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Gallery from './Pages/Gallery';
 import Header from './Components/Header';
+import Landing from './Pages/Landing';
 
 
 function App() {
   return (
-    <div className="App">
+    <div id="body" className="App">
       <Router>
       <Header />
 
         <Switch>
-            <Route exact path="/" component={About} />
+            <Route exact path="/" component={Landing} />
+            <Route path="/About" component={About} />
             <Route path="/Gallery" component={Gallery} />
             <Route path="/Contact" component={Contact} />
         </Switch>
