@@ -4,13 +4,14 @@ import Footer from './Components/Footer';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Gallery from './Pages/Gallery';
+import Header from './Components/Header';
 
 
 function App() {
   return (
     <div className="App">
       <Router>
-
+      <Header />
 
         <Switch>
             <Route exact path="/" component={About} />
