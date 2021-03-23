@@ -6,6 +6,7 @@ import Contact from './Pages/Contact';
 import Gallery from './Pages/Gallery';
 import Header from './Components/Header';
 import Landing from './Pages/Landing';
+import Resume from './Pages/Resume';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route path="/About" component={About} />
             <Route path="/Gallery" component={Gallery} />
             <Route path="/Contact" component={Contact} />
+            <Route path="/Resume" component={Resume} />
         </Switch>
       </Router>
       <Footer />
