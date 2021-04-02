@@ -1,10 +1,11 @@
 import React from "react";
+import Project from "../Components/Project";
 
 const Gallery = () => {
 
     return (
         <div>
-            Gallery 
+            <Project></Project> 
         </div>
     )
 }
