@@ -5,7 +5,36 @@ const Gallery = () => {
 
     return (
         <div>
-            <Project></Project> 
+            <Project 
+                imageSRC="" 
+                name="" 
+                description="" 
+                appLink="" 
+                repo=""/>
+            <Project 
+                imageSRC="" 
+                name="" 
+                description="" 
+                appLink="" 
+                repo=""/>
+            <Project 
+                imageSRC="" 
+                name="" 
+                description="" 
+                appLink="" 
+                repo=""/>
+            <Project 
+                imageSRC="" 
+                name="" 
+                description="" 
+                appLink="" 
+                repo=""/>
+            <Project 
+                imageSRC="" 
+                name="" 
+                description="" 
+                appLink="" 
+                repo=""/>
         </div>
     )
 }
