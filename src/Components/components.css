@@ -3,6 +3,15 @@
 
 /* Project */
 
+.project-card {
+    
+}
+
+.card-body {
+    margin-left: 50px;
+    margin-right: 5px;
+}
+
 /* Footer */
 footer {
     /* color:#37bff5; */

@@ -5,10 +5,10 @@ function Project({imageSRC, name, description, appLink, repo}) {
 
     return (
       <card className="project-card">
-        <div className="card mb-3" style={{maxWidth: "540px"}}>
+        <div className="card mb-3" style={{maxWidth: "800px"}}>
           <div className="row g-0">
             <div className="col-md-4">
-              <img src={imageSRC} alt="project-thumbnail"/>
+              <img src={imageSRC} style={{width: "320px", height: "230px"}} alt="project-thumbnail"/>
             </div>
             <div className="col-md-8">
               <div className="card-body">
