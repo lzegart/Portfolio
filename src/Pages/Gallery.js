@@ -10,7 +10,7 @@ import Img6 from "../Assets/Photos/Password-Generator-sm.png"
 const Gallery = () => {
 
     return (
-        <div>
+        <div style={{padding: "5vw"}}>
             <Project 
                 imageSRC={Img1} 
                 name="Roots" 

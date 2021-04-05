@@ -1,0 +1,14 @@
+#about-main-content {
+    padding: 10vw;
+}
+
+.image-thumbnail {
+    padding: 10px;
+}
+
+.landing {
+    text-align: center;
+    padding: 15vw;
+    font-size: 70px;
+    font-family: 'Acme', sans-serif;
+}

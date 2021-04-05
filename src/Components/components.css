@@ -4,11 +4,11 @@
 /* Project */
 
 .project-card {
-    
+    padding-top: 10px;
 }
 
 .card-body {
-    margin-left: 50px;
+    margin-left: 60px;
     margin-right: 5px;
 }
 
