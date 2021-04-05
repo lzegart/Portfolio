@@ -12,6 +12,7 @@
 
   ## Description
   This React portfolio contains an about me page, contact information and my projects and repositories to display my work as a coder.
+  [https://github.com/lzegart/Portfolio]
 
   ## Technologies & Usage
   Application runs as is in browser. Deployed through Heroku.
